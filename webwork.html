@@ -8,6 +8,9 @@
 			margin: 0px;
 			padding: 0px;
 		}
+		a{
+			text-decoration: none;
+		}
 		#top{
 			height:190px;
 			width: 1200px;
@@ -63,6 +66,7 @@
 			top:20px;
 			left: -400px;
 		}
+		
 		.all{
 			width: 140px;
 			height: 29px;
@@ -154,8 +158,14 @@
 			padding-top:12px;
 			float: left;
 		}
-		.lier{
+		.touer>a{
+			color: black;
+		}
+		.lier>a{
 			color:#8F8F8F;
+		}
+		.lier{
+			
 			height: 30px;
 			width: 110px;
 			text-align: center;
@@ -202,6 +212,9 @@
 			padding-top:30px;
 			background-color: rgb(245,245,245);
 		}
+		#under1 a{
+			color: black;
+		}
 		.under1{
 			width: 245px;
 			height: 50px;
@@ -210,8 +223,8 @@
 			float:left;
 			border-right: 1px solid #C9C9C9;
 			margin: 0px 5px;
-			
 		}
+		
 		#under2{
 			width: 1200px;
 			height: 80px;
@@ -231,6 +244,9 @@
 			font-size: 10px;
 		}
 		#under2>p{
+			color: aliceblue;
+		}
+		#under2 a{
 			color: aliceblue;
 		}
 		.right>ul>li:hover .hide{
@@ -255,6 +271,12 @@
 			display:initial;
 			display: block;
 		}
+		#biankuang a{
+			color: black;
+		}
+		.xuanxiang>a{
+			color: black;
+		}
 	</style>
 </head>
 
@@ -263,15 +285,15 @@
 		<div id="top">
 			<div id="biankuang">
 				<span style="font-size: 12px; color: #929292">嘿，欢迎来到买猜商城！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a>请登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a>免费注册</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a style="font-size: 15px; color: #929292">我的订单</a>
+				<a href="#">请登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#">免费注册</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a  href="#" style="font-size: 15px; color: #929292">我的订单</a>
 				<img src="xiala.png"/>
-				<a style="font-size: 15px; color: #929292">我的买猜</a>
+				<a  href="#" style="font-size: 15px; color: #929292">我的买猜</a>
 				<img src="xiala.png"/>&nbsp;&nbsp;
-				<a style="font-size: 15px; color: #929292">帮助中心</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a ><img src="wb.png"/></a>
-				<a ><img src="wx.png"/></a>
+				<a  href="#" style="font-size: 15px; color: #929292">帮助中心</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a  href="#" ><img src="wb.png"/></a>
+				<a  href="#" ><img src="wx.png"/></a>
 			</div>
 			<img src="logo.png" style="position: relative;top: 30px;"/>
 			<div id="search">
@@ -285,15 +307,15 @@
 				
 				<div class="daohang">
 					<div class="all"><a>全部商品分类<img src="xiala.png"></a></div>
-					<div class="xuanxiang"><a>首页</a></div>
-					<div class="xuanxiang"><a>名酒</a></div>
-					<div class="xuanxiang"><a>茗茶</a></div>
-					<div class="xuanxiang"><a>玉石</a></div>
-					<div class="xuanxiang"><a>休闲食品</a></div>
-					<div class="xuanxiang"><a>洗护用品</a></div>
-					<div class="xuanxiang"><a>土特产</a></div>
-					<div class="xuanxiang"><a>积分商城</a></div>
-					<div class="xuanxiang"><a>抽奖游戏</a></div>
+					<div class="xuanxiang"><a href="#" >首页</a></div>
+					<div class="xuanxiang"><a href="#">名酒</a></div>
+					<div class="xuanxiang"><a href="#">茗茶</a></div>
+					<div class="xuanxiang"><a href="#">玉石</a></div>
+					<div class="xuanxiang"><a href="#">休闲食品</a></div>
+					<div class="xuanxiang"><a href="#">洗护用品</a></div>
+					<div class="xuanxiang"><a href="#">土特产</a></div>
+					<div class="xuanxiang"><a href="#">积分商城</a></div>
+					<div class="xuanxiang"><a href="#">抽奖游戏</a></div>
 				</div>
 				
 			</div>
@@ -316,7 +338,7 @@
 		<div class="mid2">
 			<div style="height: 60px; width: 1200px;">
 				<div class="zi" style="float: left;">
-					<a>&nbsp;&nbsp;&nbsp;首页</a>&gt;<a style="color: #888888;font-size: 10px;">玉石</a>
+					<a href="#" style="color: black;">&nbsp;&nbsp;&nbsp;首页</a>&gt;<a  href="#" style="color: #888888;font-size: 10px;">玉石</a>
 				</div>
 				<div class="zi" style="float: right;color: #888888;font-size: 10px;">
 					共200件相关商品
@@ -326,30 +348,30 @@
 		
 			<div id="xuandan">
 				<div class="xuandan">
-					<div class="touer">玉石</div>
-					<div class="lier">白玉</div>
-					<div class="lier">碧玉</div>
-					<div class="lier">黄玉</div>
-					<div class="lier">和田玉</div>
-					<div class="lier" style="color:rgb(58,167,71)">翡翠</div>
-					<div class="lier">绿松玉</div>
-					<div class="lier">墨玉</div>
+					<div class="touer"><a href="#">玉石</a></div>
+					<div class="lier"><a href="#">白玉</a></div>
+					<div class="lier"><a href="#">碧玉</a></div>
+					<div class="lier"><a href="#">黄玉</a></div>
+					<div class="lier"><a href="#">和田玉</a></div>
+					<div class="lier" ><a href="#" style="color:rgb(58,167,71)">翡翠</a></div>
+					<div class="lier"><a href="#">绿松玉</a></div>
+					<div class="lier"><a href="#">墨玉</a></div>
 				</div>
 				<div class="xuandan">
-					<div class="touer">其他</div>
-					<div class="lier" style="color:rgb(58,167,71)">吊坠</div>
-					<div class="lier">扳指</div>
-					<div class="lier">手镯</div>
+					<div class="touer"><a href="#">其他</a></div>
+					<div class="lier" ><a href="#" style="color:rgb(58,167,71)">吊坠</a></div>
+					<div class="lier"><a href="#">扳指</a></div>
+					<div class="lier"><a href="#">手镯</a></div>
 				</div>
 				<div class="xuandan">
-					<div class="touer">地区</div>
-					<div class="lier">北京</div>
-					<div class="lier">安徽</div>
-					<div class="lier">福建</div>
-					<div class="lier">内蒙古</div>
-					<div class="lier">宁夏</div>
-					<div class="lier">黑龙江</div>
-					<div class="lier">河北</div>
+					<div class="touer"><a href="#">地区</a></div>
+					<div class="lier"><a href="#">北京</a></div>
+					<div class="lier"><a href="#">安徽</a></div>
+					<div class="lier"><a href="#">福建</a></div>
+					<div class="lier"><a href="#">内蒙古</a></div>
+					<div class="lier"><a href="#">宁夏</a></div>
+					<div class="lier"><a href="#">黑龙江</a></div>
+					<div class="lier"><a href="#">河北</a></div>
 					<div style="float: right;font-size: 15px; padding-top:12px;height: 30px; color:#8F8F8F; ">更多&nbsp;&nbsp;&nbsp;&nbsp;</div>
 				</div>
 			</div>
@@ -461,37 +483,37 @@
 		<div id="under1">
 			<div class="under1">
 				<img src="f1.png" class="up">
-				<p><a class="dazi">资质认证</a></p>
-				<a class="xiaozi">服务商100%实名认证</a>
+				<p><a  href="#" class="dazi">资质认证</a></p>
+				<a  href="#" class="xiaozi">服务商100%实名认证</a>
 			</div>
 			<div class="under1">
 				<img src="f2.png" class="up">
-				<p><a class="dazi">支付安全</a></p>
-				<a class="xiaozi">明码标价支付及信息安全</a>
+				<p><a  href="#" class="dazi">支付安全</a></p>
+				<a  href="#" class="xiaozi">明码标价支付及信息安全</a>
 			</div>
 			<div class="under1">
 				<img src="f3.png" class="up">
-				<p><a class="dazi">保险赔付</a></p>
-				<a class="xiaozi">为您提供担保赔付</a>
+				<p><a  href="#" class="dazi">保险赔付</a></p>
+				<a  href="#" class="xiaozi">为您提供担保赔付</a>
 			</div>
 			<div class="under1">
 				<img src="f4.png" class="up">
-				<p><a class="dazi">售后无忧</a></p>
-				<a class="xiaozi">服务出问题经理全程跟进</a>
+				<p><a  href="#" class="dazi">售后无忧</a></p>
+				<a  href="#" class="xiaozi">服务出问题经理全程跟进</a>
 			</div>
 		</div>
 	</div>
 	<div style="width: 100%;height: 100px; background-color: rgb(50,50,50);">
 		<div id="under2">
 			<p>
-				<a>首页</a>&nbsp;&nbsp;|&nbsp;
-				<a>工商代理</a>&nbsp;&nbsp;|&nbsp;
-				<a>财务代记账</a>&nbsp;&nbsp;|&nbsp;
-				<a>股权交易与变更</a>&nbsp;&nbsp;|&nbsp;
-				<a>企业贷款</a>&nbsp;&nbsp;|&nbsp;
-				<a>办公室租赁</a>&nbsp;&nbsp;|&nbsp;
-				<a>社保公积金代理</a>&nbsp;&nbsp;|&nbsp;
-				<a>法律服务</a>
+				<a href="#" >首页</a>&nbsp;&nbsp;|&nbsp;
+				<a href="#" >工商代理</a>&nbsp;&nbsp;|&nbsp;
+				<a href="#" >财务代记账</a>&nbsp;&nbsp;|&nbsp;
+				<a href="#" >股权交易与变更</a>&nbsp;&nbsp;|&nbsp;
+				<a href="#" >企业贷款</a>&nbsp;&nbsp;|&nbsp;
+				<a href="#" >办公室租赁</a>&nbsp;&nbsp;|&nbsp;
+				<a href="#" >社保公积金代理</a>&nbsp;&nbsp;|&nbsp;
+				<a href="#" >法律服务</a>
 			</p>
 			<p>&nbsp;</p>
 			<p>&copy;2017-2018 买猜商城有限公司 版权所有</p>
